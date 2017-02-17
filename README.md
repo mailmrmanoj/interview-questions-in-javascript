@@ -504,5 +504,14 @@
   prototypes are much more flexible in the sense that they may be mutable or immutable. The object
   may inherit from multiple prototypes, and only contains objects.
   ```
+  
+  <a name="javascript--closure"></a><a name="6.7"></a>
+- **[6.7](#javascript--closure) What is `closure` in javascript**
+  ```
+
+ A closure is an inner function that has access to the outer (enclosing) function's variables—scope chain.
+ The closure has three scope chains: it has access to its own scope (variables defined between its curly brackets),
+ it has access to the outer function's variables, and it has access to the global variables.
+  ```
 
 **[⬆ back to top](#table-of-contents)**
